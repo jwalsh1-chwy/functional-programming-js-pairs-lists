@@ -50,6 +50,21 @@ This course aims to introduce you to the key concepts of functional programming 
 - Q&A and discussion
 - Next steps and resources for further learning
 
+** Directory Structure 
+
+#+begin_src text
+functional-programming-js-pairs-lists/
+│
+├── src/
+│   ├── section-1-functional-programming.js
+│   ├── section-2-understanding-code-snippet.js
+│   ├── section-3-working-with-pairs.js
+│   ├── section-4-working-with-lists.js
+│   ├── section-5-recursion-with-lists.js
+│   └── section-6-building-complex-data-structures.js
+
+
+#+end_src
 ** Course Resources and Next Steps
 
 - Mozilla Developer Network (MDN) - JavaScript Guide: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
