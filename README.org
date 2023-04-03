@@ -29,19 +29,19 @@ This course aims to introduce you to the key concepts of functional programming 
 *** Section 4: Working with Lists (25 minutes)
 - Introduction to lists
 - Building lists using pairs
-- Implementing list operations: `first`, `rest`, `isEmpty`, `length`, `append`, and more
+- Implementing list operations: ~first~, ~rest~, ~isEmpty~, ~length~, ~append~, and more
 - Examples and use cases of lists
 - Test cases for list operations
 
 *** Section 5: Recursion with Lists (15 minutes)
 - Understanding recursion
-- Recursive operations on lists: `map`, `filter`, `reduce`, and more
+- Recursive operations on lists: ~map~, ~filter~, ~reduce~, and more
 - Examples and recursive use cases
 - Test cases for recursive operations
 
 *** Section 6: Building Complex Data Structures (20 minutes)
 - Building trees and other complex data structures using pairs and lists
-- Operations on trees: `insert`, `find`, `traverse`, and more
+- Operations on trees: ~insert~, ~find~, ~traverse~, and more
 - Examples and use cases of complex data structures
 - Test cases for complex data structure operations
 
