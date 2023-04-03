@@ -1,0 +1,82 @@
+* Two-Hour Course: Functional Programming with Pair and List Operations in JavaScript
+
+** Course Overview
+
+This course aims to introduce you to the key concepts of functional programming with a focus on pair and list operations using JavaScript. We'll start by understanding the provided code snippet and then explore the concepts of functional programming, pairs, lists, and their operations. You'll also learn about higher-order functions, closures, and how to build more complex data structures using simple primitives. By the end of this course, you'll have a solid understanding of how to use pair and list operations for functional programming in JavaScript.
+
+** Course Outline
+
+*** Introduction (5 minutes)
+- Welcome and introduction to the course
+- Explanation of the code snippet provided
+
+*** Section 1: Functional Programming (10 minutes)
+- Introduction to functional programming
+- Key principles of functional programming
+- Benefits and use cases of functional programming
+
+*** Section 2: Understanding the Code Snippet (15 minutes)
+- Dissecting the provided code snippet
+- Understanding the pair, first, and rest functions
+- Higher-order functions and closures
+
+*** Section 3: Working with Pairs (20 minutes)
+- Introduction to pairs
+- Creating and manipulating pairs using the pair function
+- Examples and use cases of pairs
+- Test cases for the pair function
+
+*** Section 4: Working with Lists (25 minutes)
+- Introduction to lists
+- Building lists using pairs
+- Implementing list operations: `first`, `rest`, `isEmpty`, `length`, `append`, and more
+- Examples and use cases of lists
+- Test cases for list operations
+
+*** Section 5: Recursion with Lists (15 minutes)
+- Understanding recursion
+- Recursive operations on lists: `map`, `filter`, `reduce`, and more
+- Examples and recursive use cases
+- Test cases for recursive operations
+
+*** Section 6: Building Complex Data Structures (20 minutes)
+- Building trees and other complex data structures using pairs and lists
+- Operations on trees: `insert`, `find`, `traverse`, and more
+- Examples and use cases of complex data structures
+- Test cases for complex data structure operations
+
+*** Conclusion (10 minutes)
+- Recap of the key concepts covered in the course
+- Q&A and discussion
+- Next steps and resources for further learning
+
+** Course Resources and Next Steps
+
+- Mozilla Developer Network (MDN) - JavaScript Guide: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- Eloquent JavaScript by Marijn Haverbeke: [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
+- Functional-Light JavaScript by Kyle Simpson: [https://github.com/getify/Functional-Light-JS](https://github.com/getify/Functional-Light-JS)
+- Structure and Interpretation of Computer Programs (SICP) by Harold Abelson and Gerald Jay Sussman: [https://mitpress.mit.edu/sites/default/files/sicp/index.html](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
+
+Next steps for participants:
+- Practice writing code and implementing the concepts learned in the course
+- Explore additional resources on functional programming and JavaScript
+- Experiment with building complex data structures using pairs and lists
+
+** Additional Notes
+
+For the course, it is expected that participants have a basic understanding of JavaScript and programming concepts. Each section will include code examples and test cases to reinforce the concepts learned. A Q&A session will be held at the end of the course to address any questions or concerns participants may have.
+
+This is a high-level course outline, and the course can be further expanded with detailed content, interactive examples, and hands-on exercises. The course can also be adapted to different formats, such as online or in-person workshops.
+Example of Section 2: Understanding the Code Snippet
+
+In this section, let's take a closer look at the provided code snippet:
+
+#+BEGIN_SRC javascript
+const pair = (f, r) => (op) => op(f, r);
+const first = (p) => p((f, r) => f);
+const rest = (p) => p((f, r) => r);
+
+console.log(first(pair(1, 2)));
+#+END_SRC
+
+Here, we have three functions: pair, first, and rest. Let's understand what each function does and how they work together.
